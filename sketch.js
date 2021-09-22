@@ -61,10 +61,10 @@ function draw(){
     fill("black");
     textSize(30);
     if(hour>=0 && hour<18 ){
-        text("time :" + hour +"PM",50,100);
+        text("time :" + hour +"AM",50,100);
     }
     else{
-        text("time :" + hour +"AM",50,100);
+        text("time :" + hour +"PM",50,100);
     }
 
 
